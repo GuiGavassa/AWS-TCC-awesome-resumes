@@ -9,18 +9,22 @@
 navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: baseline;
     background-color: #fff;
     max-width: 100%;
     min-width: none;
-    margin: 10px auto;
+    margin: 1em auto;
+    padding-bottom: 1.5em;
+    border-bottom: 4px solid  #0060A3;
+    gap: 30%;
 }
 
 .buttons {
     display: flex;
-    align-items: center;
-    gap: 2em;
-    padding-left: 60em ;
+    justify-content:center;
+    align-items: baseline;
+    gap: 1em;
+    
 }
 
 .button {
@@ -38,6 +42,7 @@ navbar {
 
 .Logotipo {
     width: 10vw;
+    margin-left: 5em;
 }
 
 .curriculos-body {
@@ -83,7 +88,6 @@ navbar {
     width: 100%;
     height: 100%;
     padding: 10px 20px;
-
     
     color: #1a1a1a;
     font-family: 'Inter', sans-serif;
@@ -106,13 +110,32 @@ navbar {
 .linkedin{
     background-color: #0060A3;
     border: none;
-    border-radius: 10em;
-    width: 70%;
-    height: 30%;
+    border-radius: 2em;
+    width: 15em;
+    height: 7em;
     transition: ease-in-out 0.2s;
 }
 
 .linkedin:hover{
     background-color: #21a2ff;
+    cursor: pointer;
+}
+
+.baixar{
+    font-family: 'Inter', sans-serif;
+    margin-top: 1em;
+}
+
+.downloadButton{
+    background-color: #FF6B00;
+    border: none;
+    border-radius: 2em;
+    width: 15em;
+    height: 7em;
+    transition: ease-in-out 0.2s;
+}
+
+.downloadButton:hover{
+    background-color: #fa9d5a;
     cursor: pointer;
 }
