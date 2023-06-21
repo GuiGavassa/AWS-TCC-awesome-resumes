@@ -10,6 +10,18 @@ body{
     background-color: #CBD8DC;
 }
 
+body::-webkit-scrollbar {
+    width: 20px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #0060A3;      
+  }
+
 navbar {
     display: flex;
     align-items: center;
@@ -20,7 +32,7 @@ navbar {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     border-bottom: 4px solid  #0060A3;
-    gap: 30%;
+    gap: 27%;
 }
 
 .buttons {
@@ -45,7 +57,7 @@ navbar {
 }
 
 .Logotipo {
-    width: 10vw;
+    width: 13vw;
     margin-left: 5em;
 }
 
